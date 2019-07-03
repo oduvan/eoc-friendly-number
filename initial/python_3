@@ -1,4 +1,4 @@
-def friendly_number(a, b):
+def friendly_number(a, b=None):
     # your code here
     return None
 
