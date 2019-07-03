@@ -7,7 +7,7 @@ requirejs(['ext_editor_1', 'ext_editor_io', 'jquery_190', 'raphael_210'],
             }
         });
         io.parseInputArguments = function (checkioInput) {
-            var lang = top.Ext.INTERPRETER_SLUG.split('-')[0];
+            var lang = this.getLanguage();
             if (lang === 'js') {
                 var args = JSON.encode(checkioInput);
                 return args.slice(1, args.length - 1);
