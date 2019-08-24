@@ -1,5 +1,4 @@
-
-export function friendlyNumber(a, b) {
+export function friendlyNumber(num, options) {
 
     // your code here
     return undefined;
